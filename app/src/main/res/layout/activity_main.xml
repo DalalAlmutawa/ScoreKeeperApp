@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+  android:layout_marginLeft="@dimen/activity"
+    android:layout_marginTop="@dimen/activity"
+    android:layout_marginRight="@dimen/activity"
+    android:layout_marginBottom="@dimen/activity"
+
+    tools:context="com.example.dalalalmutawa.scorekeeperapp.MainActivity"
+
+    >
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="@dimen/activity"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team 1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="100dp"
+            android:textStyle="bold"
+            android:id="@+id/player2Score"
+
+
+            />
+
+        <Button
+
+            android:id="@+id/reset2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:onClick="Reset2"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+
+            />
+        <Button
+
+            android:id="@+id/inc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:onClick="inc2"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+
+            />
+        <Button
+
+            android:id="@+id/des2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:onClick="des2"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+
+            />
+
+
+        />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Team 2"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="100dp"
+            android:textStyle="bold"
+            android:id="@+id/player1Score"
+
+            />
+
+        <Button
+
+            android:id="@+id/reset1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:onClick="Reset1"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+
+            />
+        <Button
+
+            android:id="@+id/inc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:onClick="inc1"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+
+            />
+        <Button
+
+            android:id="@+id/des"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:onClick="des1"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+
+            />
+
+
+        />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
